@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>calculator</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="display">0</div>
+        <div id="buttons">
+            
+            <div class="buttons btn7" onclick="btnclick('7')">7</div>
+            <div class="buttons btn8" onclick="btnclick('8')">8</div>
+            <div class="buttons btn9" onclick="btnclick('9')">9</div>
+            <div class="buttons btnC" onclick="btnclick('/')">/</div>
+            <div class="buttons btn4" onclick="btnclick('4')">4</div>
+            <div class="buttons btn5" onclick="btnclick('5')">5</div>
+            <div class="buttons btn6" onclick="btnclick('6')">6</div>
+            <div class="buttons btn+" onclick="btnclick('+')">+</div>            
+            <div class="buttons btn1" onclick="btnclick('1')">1</div>
+            <div class="buttons btn2" onclick="btnclick('2')">2</div>
+            <div class="buttons btn3" onclick="btnclick('3')">3</div>
+            <div class="buttons btn-" onclick="btnclick('-')">-</div>
+            <div class="buttons btn." onclick="btnclick('.')">.</div>
+            <div class="buttons btn0" onclick="btnclick('0')">0</div>
+            <div class="buttons btn/" id="clear" onclick="btnclick('c')">C</div>
+            <div class="buttons btneql" id="equal" onclick="btnclickisequal('=')">=</div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
