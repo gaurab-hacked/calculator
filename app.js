@@ -5,6 +5,10 @@ const btnclick=(e)=>{
     display.innerText = "";
     screen += e;
     display.innerText=screen;
+    if(e==="c"){
+        screen="";
+        display.innerText = "";
+    }
 }
 
 const btnclickisequal = ()=>{
